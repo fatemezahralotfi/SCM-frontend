@@ -1,0 +1,202 @@
+.App {
+    text-align: left;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 18px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 25px;
+    padding: 20px;
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.App-title {
+    font-size: 1em;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+.title {
+    text-align: center;
+    font-family: arial, sans-serif;
+}
+
+.table {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+}
+
+.td, .th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tr:hover {
+    background-color: #ddd;
+}
+
+.th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #F5FFFA;
+    color: black;
+    font-size: 7.5px;
+}
+
+.addButton {
+    border-radius: 8px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.editButton {
+    border-radius: 8px;
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    background-color: #008CBA; /* blue */
+    color: white;
+}
+
+.deleteButton {
+    border-radius: 8px;
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    background-color: #f44336; /* red */
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+input, select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form {
+    border-radius: 40px;
+    border-color: #111111;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+Label {
+    padding: 10px 40px;
+    text-align: left;
+    white-space: nowrap;
+    display: inline-block;
+    width: 200px;
+}
+
+.saveButton {
+    margin: 8px 3px 0px 130px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 30px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    background-color: #4CAF50; /* green */
+    color: white;
+}
+
+.cancelButton {
+    border-radius: 8px;
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    background-color: #f44336; /* red */
+    color: white;
+}
+
+textarea, select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 8px 0px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/*.Pie {*/
+
+/*  width: 2px;*/
+/*  padding: 1px 1px;*/
+/*}*/
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
